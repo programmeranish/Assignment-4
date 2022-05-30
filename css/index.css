@@ -71,7 +71,7 @@ margin-bottom: 12px;
     width: 578px;
     height: 584px;
     float: right;
-    background-image: url(./images/hero-image.png);
+    background-image: url(../images/hero-image.png);
     background-position: center;
     background-size: contain;
 }
