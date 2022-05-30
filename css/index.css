@@ -193,9 +193,11 @@ color: #797979;
 
 }
 .blog-section .blog{
-    max-width: 386px;
+    min-width: 276px;
+    max-width: 366px;
     float: left ;
     margin: 0px 10px;
+    
 }
 .blog-section .blog:first-child{
     margin-left: 0px;
@@ -204,14 +206,17 @@ color: #797979;
     margin-right: 0px;
 }
 .blog-section section{
-    width: 90%;
+    width: 80%;
     margin: 0px auto;
 
 }
 .blog-section section img{
-    width: 386px;
+    width: 100%;
+    display: block;
+    margin:auto;
 height: 281px;
-border-radius: 4px;
+    border-radius: 4px;
+
 }
 .blog-section section .date{
     margin: 12px 0px;
