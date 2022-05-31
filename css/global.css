@@ -26,3 +26,13 @@ ul li{
 ul li.active{
     color:var(--primary-color);
 }
+.hamburger-menu{
+    display: none;
+}
+ .hidden-checkbox{
+     position: absolute;
+     top:-100vh;
+ }
+ #menu-toggle:checked ~ .nav-items{
+     display: block;
+ }

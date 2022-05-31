@@ -33,8 +33,11 @@
     line-height: 1.5rem;
 
 }
-.nav-items button{
-    background-color: var(--primary-color);
+.contact-btn{
+    display: inline-block;
+}
+.nav-items ul li:last-child{
+    position: relative;
     background-color: var(--primary-color);
     color: white ;
     font-weight: 600;
@@ -49,7 +52,7 @@
 
 .container{
     width:80%;
-    margin:4.4rem auto 0px ;
+    margin:auto ;
 }
 
 .hero-section section{
@@ -88,6 +91,7 @@ color:#797979;
 
 }
 .hero-section section .explore-btn{
+    float: left;
     background-color: var(--primary-color);
     color:white;
     padding:1rem 1.87rem ;
@@ -103,6 +107,7 @@ border:0px;
 
 }
 .hero-section section .about-btn{
+    float: left;
     background-color: rgba(78, 66, 217, 0.18);
     color:var(--primary-color);
     padding:1rem 1.87rem ;
@@ -131,7 +136,8 @@ border:0px;
 
 .feature{
     width: 285px;
-    height:216px;
+    
+    margin: 20px 5px;
      float : left;
 }
 .feature img{

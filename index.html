@@ -7,24 +7,41 @@
     <title>Figma design awesome</title>
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <header class="clearfix">
       <div class="nav-logo">Awww<span class="logo-word">some</span>.</div>
+      <label for="menu-toggle" class="hamburger-menu">
+        <img src="./images/hamburger.png" alt="menu" />
+      </label>
+      <input
+        type="checkbox"
+        id="menu-toggle"
+        name="menu-toggle"
+        class="hidden-checkbox"
+      />
       <div class="nav-items">
+        <label for="menu-toggle" class="close-image">
+          <img src="./images/x.png" alt="close button" />
+        </label>
         <ul>
           <li class="active">Home</li>
           <li>About Us</li>
           <li>Services</li>
           <li>News</li>
+          <div class="contact-btn">
+            <li>Contact</li>
+          </div>
         </ul>
-        <button>Contact</button>
       </div>
     </header>
 
     <div class="container clearfix">
       <div class="hero-section clearfix">
-        <section>
+        <div class="hero-image"></div>
+
+        <section class="clearfix">
           <h2>
             We do the work you stay focused on your<br />
             customers.
@@ -38,12 +55,10 @@
             <br />
             Our team can create amazing web experiences, beginning with deep
             market research, practical strategies, and professional execution.
-            Explore Projects About Us
           </p>
           <button class="explore-btn">Explore Projects</button>
           <button class="about-btn">About Us</button>
         </section>
-        <div class="hero-image"></div>
       </div>
       <div class="section-what">
         <h2>What we do</h2>
